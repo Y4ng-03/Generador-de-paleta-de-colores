@@ -168,6 +168,26 @@ function App() {
         <div className="header-logo" title="Generador de paletas"> 🎨</div>
         <div className="header-title">Generador de Paleta de Colores</div>
         <div className="header-desc">Crea, guarda, exporta y comparte paletas de colores para tus proyectos.</div>
+        <div style={{ marginTop: 16 }}>
+          <a
+            href="https://paypal.me/jeang0312?country.x=VE&locale.x=es_XC"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              background: '#0070ba',
+              color: 'white',
+              border: 'none',
+              padding: '10px 20px',
+              borderRadius: 6,
+              cursor: 'pointer',
+              fontSize: 16,
+              textDecoration: 'none',
+              display: 'inline-block'
+            }}
+          >
+            Donar con PayPal
+          </a>
+        </div>
       </div>
       <div className="controls">
         <label>
